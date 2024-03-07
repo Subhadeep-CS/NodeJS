@@ -1,0 +1,35 @@
+What is Nodejs?
+
+Nodejs is a javascript runtime that built on the Google's open source V8 engine.
+
+Here we saw the two thing one is runtime and another is Google V8 engine.
+
+What's runtime?
+
+Browser understand HTML,CSS,JS, When we want to run some javascript code we run it on browser,So,here browser is our runtime. Browser provide us the enviroment to run javascript inside browser and also provide some Web API(like fetch(),getElementById etc),
+to perfrom some specific task.
+
+Runtime is the enviroment where we run some specific code.
+
+History:-
+
+Before 2009, javascript is only capable to run in browser,no other way to run javascript outside of the browser, and now every browser has javascript is engine to run some piece of javascript code, so Chrome has V8 javascript engine and fire fox has spider monky etc.
+
+In 2009,Ryan Dahl came our with a beautiful idea,He thought,It would be greatful to run js outside of the browser.He took google V8 engine and embeded it inside a CPP program and he called it node.js.
+
+What is Nodejs?
+
+Similar to browser,Nodejs is runtime enviroment for executing js code.It has js engine which execute js code.
+
+It has certain API which provides an enviroment to code javascript in node.js.The API different from the browser API
+
+fs,http,readLine etc
+
+so,Nodejs is a program that includes the V8 engine and some additional API's that gives us capability to run javascript outside of the browser.
+
+1.Nodejs is a single threaded,event-driven and Non-blocking IO.
+2.Perfect of building fast and scalable,Data intensive application
+
+Not fit 
+
+The apps which needs very server side processing,like image manipulation,video manipulation,file compresiion.
