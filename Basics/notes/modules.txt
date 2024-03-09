@@ -1,2 +1,14 @@
 What's node module system? 
 
+In node.js every file consider as a module.
+
+Suppose I have a file a.js and b.js So,here a.js is a module and b.js is a module.
+
+Suppose I have two file one file is first.js and another file is add.js.So I have two module inside node.js and Now in add.js module I have a add function, now I want to use that add function inside my first.js module.How we can to that.
+
+To do this we have a specific function in node.js that's require function.
+
+The behaviour of require() function:-
+
+require function takes a parameter that's a module and execute that module in line by line. As we know javascript is a single threaded programming language,So each line execute
+
