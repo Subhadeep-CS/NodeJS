@@ -1,0 +1,30 @@
+What is express js?
+
+Express js is a free and open-source web application framework for node js.
+
+Express help us to develop node js application by writing minimum node js code.It simplifies complex node js code with simple one two line
+
+Express js provide us some built in class and function which we can use while we developing a web application,Although we can write complex functionalities with simple one or two line code.
+
+Some facts of express
+
+1.Express is completely build on Node.js.
+
+2.Express contain very robust and useful set of features
+
+3.Express allows us to write node js application faster and simpler by providing us developers a predefined method for every complex task in node js.
+
+4.With express we can organize node js application in mvc model.
+
+
+How to install express?
+
+1.first of all generate a package.json file where we organize all the information of our project
+
+npm init => it will give us a package.json file.
+
+2.Install the express js from npm 
+
+npm i express
+
+Now our npm is install so now we are able ro use express js.
